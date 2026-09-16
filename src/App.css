@@ -1,0 +1,268 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+h1 {
+  margin: 20px auto;
+  font-size: small;
+}
+.background_img {
+  margin: 20px auto;
+  height: 90vh;
+  width: 90vw;
+  background-image: url("assets/cloudscape-5556666_1920.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.textureImg {
+  position: absolute;
+  top: -43px;
+  right: -70px;
+  opacity: 1;
+  width: 40vw;
+  border-radius: 100px;
+  height: 60vh;
+  background-image: url("assets/second.png");
+  background-position: center center;
+  background-size: cover;
+  transform: rotate(-60deg);
+  background-repeat: no-repeat;
+}
+.mainbox {
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+  border: 0.5px dashed rgb(255, 255, 255);
+  box-sizing: content-box;
+}
+.right {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 68vw;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 68vw;
+  row-gap: 4em;
+  column-gap: 21em;
+}
+.temp{
+display: grid;
+grid-template-columns: repeat(5,2fr);
+grid-template-rows: repeat(3,2fr);
+}
+.sidenave {
+  height: 100%;
+  width: 23vw;
+  padding: 15px;
+  backdrop-filter: blur(15px);
+  border-right: 1px dashed rgb(133, 122, 122);
+}
+input {
+  height: 28px;
+  width: 163px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1.5px solid rgb(225, 225, 225);
+  padding: 5px;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+input:active {
+  outline: none;
+}
+input:focus {
+  outline: none;
+}
+.degarrData {
+  margin-bottom: 2px;
+}
+.windSpeed {
+  margin-top: 10px;
+}
+table {
+  width: 20vw;
+  height: 17vh;
+  margin-top: 22px;
+  font-size: 12px;
+}
+canvas {
+  height: 20vh;
+  width: 19vw;
+  margin-top: 32px;
+  border-radius: 5px;
+  border: 1px dashed rgb(0, 35, 20);
+}
+th {
+  margin: 5px;
+}
+.footerSidenave {
+  margin-top: 10px;
+  height: 30vh;
+}
+.footerSidenave h2 {
+  font-size: large;
+}
+.footerSidenave p {
+  font-size: 12px;
+  width: 13.7em;
+}
+.upperContant {
+  width: 50%;
+  height: 100%;
+}
+pre {
+  white-space: pre;
+  line-height: normal;
+}
+.upperContant h1 {
+  font-size: 16px;
+  line-height: 0.9;
+  text-transform: capitalize;
+  width: 104px;
+  margin-left: 0;
+  color: rgb(0, 0, 0);
+  height: 43px;
+}
+.degarrData {
+  font-size: 30px;
+}
+.windSpeed :nth-child(1) {
+  font-size: 18px;
+  margin-right: 20px;
+}
+.windSpeed :nth-child(2) {
+  font-size: 12px;
+  font-weight: 600;
+}
+.upperContant :nth-child(2) {
+  font-size: 10px;
+  margin-top: 10px;
+  color: rgb(0, 34, 21);
+}
+.upperContant :nth-child(3) {
+  text-transform: capitalize;
+  margin-top: 10px;
+  font-size: 24px;
+}
+.upperContant :nth-child(4) {
+  margin-top: 50px;
+}
+pre img {
+  margin-top: -28px;
+  margin-bottom: -15px;
+  margin-left: 0px;
+  color: blueviolet;
+  background-color: rgb(98, 98, 98);
+  border-radius: 50px;
+  height: 50px;
+}
+.uppercount2 {
+  width: 30vw;
+  height: 55vh;
+  margin-left: -12em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.uppercount2 table {
+  width: 30vw;
+  height: 50vh;
+  margin-right: 20px;
+}
+.uppercount2 td,
+tr {
+  width: 15vw;
+  height: 5vh;
+  margin: 25px;
+  font-size: 17px;
+}
+ */
+html {
+  scroll-behavior: smooth;
+  background-image: url("../src/assets/second.png");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: center center;
+  background-size: 100%;
+}
+.main2 {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+ 
+
+}
+
+.selectdiv label[for="«r0»"] {
+    margin-right: 20px;
+      margin-left: 20px;
+        display: block;
+}
+select {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.selectdiv {
+  display: inline-block;
+}
+button {
+  margin-top: 20px;
+  height: 32px;
+  border-radius: 6px;
+  background-color: #0022ff;
+}
+input {
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 25px;
+  width: 25vw;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 2px solid wheat;
+  padding: 5px;
+  color: aliceblue;
+}
+.child {
+  border: 12px solid blue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+  height: 25vw;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 50px;
+  backdrop-filter: blur(13px);
+  background-color: transparent;
+  overflow: hidden;
+}
+.headText {
+  width: 100vw; 
+  height: 10vh; 
+  display: flex;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+
